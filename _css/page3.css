@@ -51,11 +51,11 @@
     bottom: 10%;
     right: 10%;
     left: 10%;
-    animation: redBorderJump 5s infinite;
+    animation: redBorderJump 4s infinite;
 }
 @keyframes redBorderJump {
     50% {
-        box-shadow: 0 0 10vw red;
+        box-shadow: 0 0 5vw red;
     }
 }
 #injusticeInfo .injusticeSideInfo .injusticeSideCard p {
