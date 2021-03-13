@@ -1,0 +1,34 @@
+#page3 {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    animation: changeRedBlack 4s infinite;
+}
+@keyframes changeRedBlack {
+    50% {
+        background-color: rgb(29, 0, 0);
+    }
+}
+
+#bigInjustice {
+    position: relative;
+    /* border: 1px solid white; */
+    width: 50vw;
+    left: 25vw;
+}
+
+#page3 h1 {
+    color: red;
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 10vw;
+    position: relative;
+}
+
+#redline {
+    border: 1px dotted red;
+    background-color: red;
+    height: 2vh;
+
+}

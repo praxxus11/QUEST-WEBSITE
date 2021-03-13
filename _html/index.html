@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='../_css/general.css'>
+        <link rel='stylesheet' href='../_css/page1.css'>
+        <link rel='stylesheet' href='../_css/page2.css'>
+        <link rel='stylesheet' href='../_css/page3.css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id='page1'>
+            <div id="title-slogan">
+                <h1><span style='color:rgb(161, 255, 250)'><strong>Guarding</strong></span> Your Data</h1>
+                <div id="rect"></div>
+                <p class='slogan'>We know our <span style='color:rgb(161, 255, 250)'><strong>data</strong></span> is being used.</p>
+                <p class='slogan'>But what happens <span style='color:rgb(161,255,250)'><strong>after</strong></span>?</p>
+                <p id="credits">Created By: <span style='color:rgb(161, 255, 250);font-size:2.5vw;'><strong>Eric Huang</strong></span></p>
+            </div>
+            <canvas id="linesbetween"></canvas>
+            <div id="links">
+                <a href='#page2'>
+                    <div class='link' id='l1'>
+                        <p class="linktext">
+                            Introduction
+                        </p>
+                    </div>
+                </a>
+                <a href='#page3'>
+                    <div class='link' id='l2'>
+                        <p class="linktext">
+                            Injustice
+                        </p>
+                    </div>
+                </a>
+                <div class='link' id='l3'>
+                    <p class="linktext">
+                        Rights
+                    </p>
+                </div>
+                <a href='about.html'>
+                    <div class='link' id='l4'>
+                        <p class="linktext">
+                            About
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <img id='waveimg' src='../pics/wave.png'>
+            <img id='wavetopimg' src='../pics/wavetop.png'>
+        </div>
+        <div id='page2'>
+            <div id='page2head'>
+                <h1>
+                    Introduction
+                </h1>
+                <div id="info2">
+                    <div id='infoCard' style='background-image: linear-gradient(70deg, rgba(29,255,195,0.1),rgba(0,212,255,0.1));'>
+                        <h2>Automated Decision Systems:</h2>
+                        <p>Transforms a set of inputs to outputs. Faciliates human decision making ("United States").</p>
+                    </div>
+                    <div id='infoCard' style='background-image: linear-gradient(70deg, rgba(255, 29, 29, 0.1),rgba(255, 238, 0, 0.1));'>
+                        <h2>Applications</h2>
+                        <p>Used when need to make many decisions where not possible for human to do so.
+                            For example: predicting crime or scheduling appointments (Larrazabal et al.) (Heaven).
+                        </p>
+                    </div>
+                    <div id='infoCard' style='background-image: linear-gradient(70deg, rgba(255, 29, 153, 0.1),rgba(9, 255, 0, 0.1));'>
+                        <h2>Data</h2>
+                        <p>Data is an integral part in creating ADS's. Need a lot of data to ensure the ADT
+                            knows what it is doing (Ng).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img id="elec" src='../pics/elec.png'>
+            <img id='waveimg2' src='../pics/wave.png'>
+        </div>
+        <div id='page3'>
+            <div id="bigInjustice">
+                <h1>
+                    Injustice
+                </h1>
+                <div id="redline"></div>
+            </div>
+        </div>
+        <a id="scrollUp" href='#page1'>
+            <p>
+                Scroll Up 
+            </p>
+        </a>
+        <script src='../_js/background.js'></script>
+        <script src='../_js/frontAnim.js'></script>
+        <script src='../_js/pagedynamics.js'></script>
+    </body>
+</html>
