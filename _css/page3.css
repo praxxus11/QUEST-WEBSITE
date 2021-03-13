@@ -11,6 +11,7 @@
     /* border: 1px solid white; */
     width: 50vw;
     left: 25vw;
+    height: 35vh;
 }
 
 #page3 h1 {
@@ -26,4 +27,71 @@
     background-color: red;
     height: 2vh;
 
+}
+
+#injusticeInfo {
+    position: relative;
+    /* border: 2px solid rgb(0, 4, 255); */
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#injusticeInfo .injusticeSideInfo {
+    position: relative;
+    /* border: 1px solid white; */
+    width: 35vw;
+}
+
+#injusticeInfo .injusticeSideInfo .injusticeSideCard {
+    border: 2vh solid red;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
+    animation: redBorderJump 5s infinite;
+}
+@keyframes redBorderJump {
+    50% {
+        box-shadow: 0 0 10vw red;
+    }
+}
+#injusticeInfo .injusticeSideInfo .injusticeSideCard p {
+    font-family: 'Quattrocento';
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    margin: 10%;
+}
+
+#injusticeInfo .injusticeCenterInfo {
+    position: relative;
+    /* border: 1px solid red; */
+    width: 15vw;
+}
+
+#injusticeInfo .injusticeCenterInfo p {
+    font-family: 'Quattrocento';
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#injusticeLeftP {
+    text-align: right;
+}
+
+.injusticePara {
+    transition: 2s;
+}
+
+.pulsingRedStats {
+    color: red;
+    animation: pulsingRedText 3s infinite;
+}
+@keyframes pulsingRedText {
+    50% {
+        color: white;
+    }
 }

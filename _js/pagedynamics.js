@@ -19,8 +19,14 @@ window.addEventListener("scroll", () => {
 
     if (scroll > 2*window.innerHeight-200) {
         document.getElementById("page3").style.backgroundColor = 'black';
+        document.querySelectorAll(".injusticePara").forEach(function(para) {
+            para.style.color = 'white';
+        });
     }
     else {
         document.getElementById("page3").style.backgroundColor = 'white';
+        document.querySelectorAll(".injusticePara").forEach(function(para) {
+            para.style.color = 'black';
+        });
     }
 });
