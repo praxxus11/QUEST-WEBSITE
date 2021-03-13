@@ -16,4 +16,11 @@ window.addEventListener("scroll", () => {
     if (scroll <= window.innerHeight-40) {
         document.getElementById("scrollUp").style.display = 'none';
     }
+
+    if (scroll > 2*window.innerHeight-200) {
+        document.getElementById("page3").style.backgroundColor = 'black';
+    }
+    else {
+        document.getElementById("page3").style.backgroundColor = 'white';
+    }
 });

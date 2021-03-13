@@ -1,14 +1,9 @@
 #page3 {
-    background-color: black;
+    background-color: white;
     height: 100vh;
     width: 100vw;
     position: relative;
-    animation: changeRedBlack 4s infinite;
-}
-@keyframes changeRedBlack {
-    50% {
-        background-color: rgb(29, 0, 0);
-    }
+    transition: 2s;
 }
 
 #bigInjustice {
