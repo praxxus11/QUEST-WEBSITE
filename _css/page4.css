@@ -9,6 +9,7 @@
     width: 100vw;
     z-index: -1;
 }
+
 #rights-granted-cont {
     position: relative;
     height: 26vh;
@@ -47,20 +48,59 @@
     right: 1vw;
     top: 1vw;
     bottom: 1vw;
-    background-color: rgba(255, 255, 255, 0.315);
+    background-color: rgba(255, 255, 255, 0.829);
+}
+#legName {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 13vh;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-evenly;
+}
+#legName h2 {
+    font-size: 10vh;
 }
 #toggleSumRights {
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0;
     right: 0;
     height: 10vh;
     border: 2px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .SumRightsFormat {
-    font-size: 8vh;
+    font-size: 5vh;
     color: rgb(0, 0, 0);
+    width: 20%;
+    height: 7vh;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+#summaryButt:hover, #rightsButt:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#summaryText {
+    position: relative;
+    font-size: 2vw;
+    margin: 1.5vw;
+    border: 1px solid black;
+}
+#rightsText {
+    position: relative;
+    font-size: 1.5vw;
+    margin: 1.5vw;
+    border: 1px solid black;
 }
 
 #linkToRealThing {
