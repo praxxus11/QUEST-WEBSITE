@@ -3,3 +3,69 @@
     width: 100vw;
     height: 100vh;
 }
+#p4goop {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+#rights-granted-cont {
+    position: relative;
+    height: 26vh;
+    width: 100vw;
+}
+
+#rights-granted-cont h1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 18vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#holdsRightsAndLink {
+    position: relative;
+    border: 4px solid rgb(209, 31, 31);
+    width: 100vw;
+    height: 74vh;
+    padding: 2vw;
+    display: flex;
+    flex-flow: space-evenly;
+}
+
+#aboutRights {
+    position: relative;
+    border: 2px solid blue;
+    flex-grow: 2;
+}
+#aboutRightsBox {
+    border: 2px solid black;
+    border-radius: 3vw;
+    position: absolute;
+    left: 1vw;
+    right: 1vw;
+    top: 1vw;
+    bottom: 1vw;
+    background-color: rgba(255, 255, 255, 0.315);
+}
+#toggleSumRights {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 10vh;
+    border: 2px solid green;
+}
+
+.SumRightsFormat {
+    font-size: 8vh;
+    color: rgb(0, 0, 0);
+}
+
+#linkToRealThing {
+    position: relative;
+    border: 2px solid yellow;
+    flex-grow: 1;
+
+}
